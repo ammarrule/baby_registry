@@ -1,0 +1,145 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-family: 'Butterfly Kids', cursive;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.container {
+    padding-top: 5rem;
+}
+
+nav {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    width: 100%;
+    max-width: 130px;
+}
+
+.nav-link {
+    font-size: 2.5rem;
+}
+
+section {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+section h1 {
+    font-size: 5rem;
+    color: #77d24d;
+    font-weight: 600;
+}
+
+section p {
+    font-size: 2rem;
+}
+
+.registry {
+    width: 100%;
+    background: #f8f9fa;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.registry h3 {
+    text-align: left;
+    font-size: 3rem;
+}
+
+.product-wrapper {
+    width: 310px;
+    min-height: 668px;
+    background: #FFF;
+    padding: 1rem;
+    text-align: left;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+}
+
+.product-wrapper img {
+    max-width: 280px;
+}
+
+.product-wrapper p {
+    padding-left: 1rem;
+    margin-bottom: 0px;
+}
+
+.product-wrapper .product-title {
+    font-weight: 600;
+}
+
+.product-wrapper .product-description {
+    line-height: 1;
+}
+
+.purchased .product-wrapper {
+    opacity: 0.5;
+}
+
+.product-wrapper .form-check {
+    padding-left: 3rem;
+    font-size: 1.5rem;
+}
+
+.product-wrapper form {
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buy-here {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
+}
+
+.alert-success {
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .registry {
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .product-wrapper {
+        margin: auto;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+}
+
